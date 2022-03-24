@@ -8,7 +8,9 @@ module.exports = {
       fontFamily: {
         'mont': ['"Montserrat", sans-serif']
       },
-     
+      fontSize: {
+        'tiny': '.7rem'
+      }
     },
   },
   plugins: [],

@@ -1,15 +1,7 @@
 module.exports = {
-  mode: 'jit',
-  purge: ['app/*/**/*.{js,ts,jsx,tsx}'],
+  content: ["./app/**/*.{ts,tsx,jsx,js}"],
   theme: {
-    extend: {
-      fontFamily: {
-        'mont': ['"Montserrat", sans-serif']
-      },
-      fontSize: {
-        'tiny': '.7rem'
-      }
-    },
+    extend: {},
   },
   plugins: [],
-}
+};
